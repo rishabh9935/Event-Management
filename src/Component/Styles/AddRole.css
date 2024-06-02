@@ -1,0 +1,111 @@
+/* Container styles */
+.form-container {
+    width: 50%; /* Adjust container width as needed */
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    color: #fff; /* Text color */
+}
+
+/* Heading styles */
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+/* Form group styles */
+.form-container .form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styles */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input styles */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+    width: 100%; /* Make input fields full width */
+    padding: 8px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    background-color: #555; /* Input field background color */
+    color: #fff; /* Input field text color */
+}
+
+/* Input focus styles */
+.form-container input[type="text"]:focus,
+.form-container input[type="number"]:focus,
+.form-container select:focus {
+    outline: none;
+}
+
+/* Button styles */
+.form-container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover styles */
+.form-container button[type="submit"]:hover {
+    background-color: #45a049; /* Button hover color */
+}
+
+/* Message styles */
+.form-container .message {
+    margin-top: 20px;
+}
+
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+  
+  .table th {
+    background-color: #555;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #666;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #888;
+  }
+  
+  .action-btn {
+    background-color: #dd4b39;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .action-btn:hover {
+    background-color: #c0392b;
+  }
+  

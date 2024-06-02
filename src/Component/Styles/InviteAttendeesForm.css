@@ -1,0 +1,41 @@
+.invite-attendees-form {
+    width: 50%;
+    margin-top: 180px;
+    margin-bottom: 150px;
+    margin-left: 400px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .invite-attendees-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .invite-attendees-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .invite-attendees-form textarea::placeholder {
+    color: #ccc;
+  }
+  
+  .invite-attendees-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .invite-attendees-form button:hover {
+    background-color: #45a049;
+  }
+  

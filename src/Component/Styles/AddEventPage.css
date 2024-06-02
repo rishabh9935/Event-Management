@@ -1,0 +1,141 @@
+.container {
+  width: 50%;
+  margin: 2vh auto;
+  display: flex;
+}
+
+/* .image-list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+} */
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 20px;
+  /* background-color: #007bff; */
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload p {
+  margin-top: 10px;
+}
+
+.form {
+  flex: 1;
+  background-color: #3d3b3b;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 20px; /* Add margin between image list and form */
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.isPrivate {
+  display: flex;
+  width: 10rem;
+}
+
+.isPrivateCheckbox {
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form textarea,
+.form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.image-gallery{
+  width: 300px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+
+
+/* .container {
+  width: 50%;
+  margin: 2vh auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #3d3b3b;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; 
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.isPrivate {
+  display: flex;
+  width: 10rem;
+}
+
+.isPrivateCheckbox{
+  margin-bottom: 5px;
+  margin-left: 4px;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form textarea,
+.form button {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+body{
+  background: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+} */

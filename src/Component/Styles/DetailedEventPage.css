@@ -1,0 +1,95 @@
+.detailed-event {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background color */
+  color: #fff; /* Text color */
+  
+}
+
+.Headings{
+  font-weight: 1000;
+}
+
+.detailed-event-img {
+  width: 600px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 20px;
+}
+
+.detailed-event-info {
+  text-align: center;
+}
+
+.event-actions button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-actions button:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+.ticket-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ticket-card {
+  background-color: #333; /* Card background color */
+  color: #fff; /* Card text color */
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px; /* Adjust card width as needed */
+}
+
+.book-now button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Book now button color */
+  color: #fff; /* Book now button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now button:hover {
+  background-color: #218838; /* Book now button hover color */
+}
+
+.add-ticket-type button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffc107; /* Add ticket type button color */
+  color: #000; /* Add ticket type button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-ticket-type button:hover {
+  background-color: #e0a800; /* Add ticket type button hover color */
+}
+
+.image-gallery {
+  width: 300px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 20px;
+  margin: 20px;
+}

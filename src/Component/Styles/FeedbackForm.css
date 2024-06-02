@@ -1,0 +1,61 @@
+.feedback-form {
+  max-width: 400px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 575px;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.feedback-form h2 {
+  margin-bottom: 20px;
+}
+
+.feedback-form .form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #4CAF49;
+}
+
+
+.rating {
+  display: inline-block;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc; /* Default star color */
+}
+
+.star:hover,
+.star.filled {
+  color: #ffc107; /* Hovered or filled star color */
+}

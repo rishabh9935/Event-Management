@@ -1,0 +1,58 @@
+/* Container styles */
+.add-donor-container {
+  width: 45%;
+  margin-top: 200px;
+  margin-bottom: 218px;
+  margin-left: 420px;
+  padding: 20px;
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text color */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Heading styles */
+.add-donor-heading {
+  margin-bottom: 20px;
+  font-size: 24px; /* Larger font size */
+}
+
+/* Form styles */
+.add-donor-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-donor-form label {
+  margin-bottom: 10px;
+}
+
+.add-donor-form input[type="text"],
+.add-donor-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555; /* Dark input background */
+  color: #fff; /* White text color */
+}
+
+.add-donor-form input[type="text"]:focus,
+.add-donor-form input[type="email"]:focus {
+  outline: none;
+}
+
+.add-donor-form button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50; /* Button color */
+  color: #fff; /* Button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-donor-form button[type="submit"]:hover {
+  background-color: #45a049; /* Button hover color */
+}

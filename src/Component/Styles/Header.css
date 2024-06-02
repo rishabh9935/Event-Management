@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3d3b3b;
+    /* background-color: #4a75a0; */
+    color: white;
+    margin-bottom: 0px;
+    /* position: absolute; */
+    width: 100%;
+  }
+  
+  .left h1 {
+    margin: 0;
+  }
+  
+  .right ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .right ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .right ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .right ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .right ul li button {
+    color: white;
+    background-color: red; 
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .right ul li button:hover {
+    background-color: #FFB6C1; 
+  }
+
+  .appName:hover{
+    color: lightgrey;
+    cursor: pointer;
+  }
+
+  .user-icon{
+    cursor: pointer;
+  }

@@ -1,0 +1,37 @@
+.donor-list-container {
+    height: 100vh;
+    padding: 20px;
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  .donor-list-heading {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 300;
+  }
+  
+  .donor-list-ul {
+    width: 20%;
+    list-style: none; 
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px; 
+  }
+  
+  li button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li button:hover {
+    background-color: #0056b3; 
+  }
+  
